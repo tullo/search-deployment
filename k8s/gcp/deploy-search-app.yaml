@@ -21,7 +21,7 @@ spec:
         fsGroup: 1000
       containers:
       - name: search-app
-        image: eu.gcr.io/stackwise-starter-kit/search-app-amd64:6d7000cff4ce7a58d477be8b7e0c1c2821da00fb
+        image: eu.gcr.io/stackwise-starter-kit/search-app-amd64:3eb77c2eeea51b9ad9f7241723cda25b81d93520
         env:
         - name: SEARCH_WEB_HOST
           value: :8080
